@@ -1,0 +1,608 @@
+<style type="text/css">.lp-title-bar {
+        display: none;
+    }
+    
+    .fifty-shades-cd-shades {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        justify-content: space-between;
+		-webkit-justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        -webkit-flex-flow: row wrap;
+		align-content: space-between;
+	}
+    
+    .fifty-shades-cd-undertones {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        justify-content: space-between;
+		-webkit-justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        -webkit-flex-flow: row wrap;
+		align-content: space-between;
+        width:100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+	.fifty-shades-cd-shade {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+		position: relative;
+        text-align: center;
+        width: 33%;
+		font-size: normal;
+	}
+    
+    .fifty-shades-cd-pink-undertone, .fifty-shades-cd-neutral-undertone, .fifty-shades-cd-yellow-undertone, .fifty-shades-cd-cool-undertone, .fifty-shades-cd-golden-undertone, .fifty-shades-cd-olive-undertone, .fifty-shades-cd-peach-undertone, .fifty-shades-cd-orange-undertone, .fifty-shades-cd-warm-undertone, .fifty-shades-cd-red-undertone {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+		position: relative;
+        text-align: center;
+        width: 18%;
+		font-size: normal;
+	}
+    
+    #fifty-shades-cd-nav-bar {
+        margin-bottom: 2%;
+    }
+    
+    .fifty-shades-cd-shade a {
+		background: #1c1c1c;
+		color: #ffffff;
+		width: 100%;
+		height: auto;
+		padding: 20px 5px;
+	}
+	.fifty-shades-cd-shade a:hover {
+		text-decoration: none;
+		background: #A4674B;
+	}
+    
+    .fifty-shades-cd-heading {
+        text-align: center;
+    }
+    
+    .fifty-shades-cd-pink-undertone a {
+		background: #f5b8ef;
+		color: #333;
+		width: 100%;
+		height: auto;
+		padding: 20px 5px;
+        font-size:1.3em;
+        cursor: pointer;
+	}
+    
+    .fifty-shades-cd-neutral-undertone a {
+		background: #e5e0e7;
+		color: #333;
+		width: 100%;
+		height: auto;
+		padding: 20px 5px;
+        font-size:1.3em;
+        cursor: pointer;
+	}
+    
+    .fifty-shades-cd-yellow-undertone a {
+		background: #f9facd;
+		color: #333;
+		width: 100%;
+		height: auto;
+		padding: 20px 5px;
+        font-size:1.3em;
+        cursor: pointer;
+	}
+    
+    .fifty-shades-cd-cool-undertone a {
+		background: #c0f3fd;
+		color: #333;
+		width: 100%;
+		height: auto;
+		padding: 20px 5px;
+        font-size:1.3em;
+        cursor: pointer;
+	}
+    
+    .fifty-shades-cd-golden-undertone a {
+		background: #ebc97f;
+		color: #333;
+		width: 100%;
+		height: auto;
+		padding: 20px 5px;
+        font-size:1.3em;
+        cursor: pointer;
+	}
+    
+    .fifty-shades-cd-olive-undertone a {
+		background: #808000;
+		color: #333;
+		width: 100%;
+		height: auto;
+		padding: 20px 5px;
+        font-size:1.3em;
+        cursor: pointer;
+	}
+    
+    .fifty-shades-cd-peach-undertone a {
+		background: #FFE5B4;
+		color: #333;
+		width: 100%;
+		height: auto;
+		padding: 20px 5px;
+        font-size:1.3em;
+        cursor: pointer;
+	}
+    
+    .fifty-shades-cd-orange-undertone a {
+		background: #FF8000;
+		color: #333;
+		width: 100%;
+		height: auto;
+		padding: 20px 5px;
+        font-size:1.3em;
+        cursor: pointer;
+	}
+    
+    .fifty-shades-cd-warm-undertone a {
+		background: #cb5020;
+		color: #333;
+		width: 100%;
+		height: auto;
+		padding: 20px 5px;
+        font-size:1.3em;
+        cursor: pointer;
+	}
+    
+    .fifty-shades-cd-red-undertone a {
+		background: #f11;
+		color: #333;
+		width: 100%;
+		height: auto;
+		padding: 20px 5px;
+        font-size:1.3em;
+        cursor: pointer;
+	}
+    
+	.fifty-shades-cd-pink-undertone a:hover, .fifty-shades-cd-neutral-undertone a:hover, .fifty-shades-cd-yellow-undertone a:hover, .fifty-shades-cd-cool-undertone a:hover, .fifty-shades-cd-golden-undertone a:hover, .fifty-shades-cd-olive-undertone a:hover, .fifty-shades-cd-peach-undertone a:hover, .fifty-shades-cd-orange-undertone a:hover, .fifty-shades-cd-warm-undertone a:hover, .fifty-shades-cd-red-undertone a:hover {
+		text-decoration: none;
+		background: #A4674B;
+	}
+    
+    .fifty-shades-cd-video {
+        text-align: center;
+        margin: 3% 0 3% 0;
+    }
+    
+    .fifty-shades-cd-heading h1 {
+        font-size: 3em;
+        margin-top: 4%;
+        margin-bottom: 1%;
+    }
+    
+    .fifty-shades-cd-heading h3 {
+        font-size:2em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    
+    .fifty-shades-cd-top-banner img {
+        width: 90%;
+    }
+    
+    .fifty-shades-cd-top-banner {
+        text-align: center;
+        margin:0 auto;
+    }
+    
+    .fifty-shades-cd-marketing {
+        text-align: center;
+    }
+    
+    .fifty-shades-cd-marketing img {
+        width:95%;
+    }
+    
+    .fifty-shades-cd-marketing-box {
+        width:33%;
+        float:left;
+    }
+    
+    .fifty-shades-cd-heading li {
+        list-style-type: none;
+    }
+    
+    .fifty-shades-cd-heading h4 {
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        margin-top: 10%;
+    }
+    
+    .fifty-shades-cd-marketing-box p {
+        font-size: 1.2em;
+        line-height: 26px;
+        padding: 25px;
+        margin-top:0;
+    }
+    
+    .fifty-shades-cd-marketing-box h5 {
+        font-size: 2em;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        letter-spacing: 2px;
+        margin-top: 20%;
+    }
+    
+    .fifty-shades-cd-shop-all {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        position: relative;
+        text-align: center;
+        width: 24%;
+        margin: 0 auto;
+        clear:both;
+    }
+    
+    .fifty-shades-cd-shop-all a {
+        background: #1c1c1c;
+        color: #ffffff!important;
+        width: 100%;
+        height: auto;
+        padding: 20px 5px;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-top: 20%;
+    }
+    
+    .fifty-shades-cd-back-to-top {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        position: relative;
+        text-align: center;
+        width: 14%;
+        margin: 0 auto;
+        clear:both;
+    }
+    
+    .fifty-shades-cd-back-to-top a {
+        background: #1c1c1c;
+        color: #ffffff!important;
+        width: 100%;
+        height: auto;
+        padding: 20px 5px;
+        text-transform: uppercase;
+        font-size: 1em;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-top: 20%;
+    }
+    
+    .fifty-shades-cd-shop-all a:hover, .fifty-shades-cd-back-to-top a:hover {
+        text-decoration: none;
+        background: #A4674B;
+    }
+    
+    .fifty-shades-cd-undertone-title h3 {
+        font-size: 2em;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    
+    .fifty-shades-cd-undertones-content {
+        font-size: 1.5em;
+        text-align: center;
+        margin: 5% auto;
+        text-transform: uppercase;
+        font-weight: bold;
+        background: #A4674B;
+        color: white;
+        padding: 25px;
+        width: 50%;
+        cursor: pointer;
+    }
+    
+    .fifty-shades-cd-undertones-content-colours h5 {
+        font-size: 1.2em;
+        font-weight: normal;
+    }
+    
+    .fifty-shades-cd-undertones-content-colours {
+        text-align: center;
+        width: 65%;
+        margin: 0 auto;
+    }
+    
+    .fifty-shades-cd-undertones-content-hint, .fifty-shades-cd-undertones-content-jewellery {
+        text-align: center;
+        width: 50%;
+        margin: 4% auto;
+    }
+    
+    .fifty-shades-cd-undertones-content-hint h5, .fifty-shades-cd-undertones-content-jewellery h5 {
+        font-size: 1.2em;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin-bottom:0;
+    }
+    
+    .fifty-shades-cd-undertones-content-colours img {
+        width: 60%;
+        margin-top: 4%;
+    }
+    
+    .fifty-shades-cd-undertones-content-jewellery img {
+        width: 40%;
+        margin-top: 4%;
+    }
+    
+    .category-grid-box .title-overlay a {
+        color: #000;
+        font-size: 1.7em;
+    }
+    
+    @media (max-width: 678px) {
+        .default-title-bar { display:none; }
+        .fifty-shades-cd-shade, .fifty-shades-cd-pink-undertone, .fifty-shades-cd-neutral-undertone, .fifty-shades-cd-yellow-undertone, .fifty-shades-cd-cool-undertone, .fifty-shades-cd-golden-undertone {
+            width: 100%;
+			margin-bottom: 4px;
+        }
+    }
+    
+    @media only screen and (max-width: 1200px) and (min-width: 679px) {
+        .default-title-bar { display:none; }
+    }
+</style>
+
+<div class="fifty-shades-cd-container">
+        
+    <div class="fifty-shades-cd-top-banner">
+        <img src="/Images/Content/50-cd-shades-top-banner-en.jpg">
+    </div>
+    
+    <div class="fifty-shades-cd-heading">
+        <h1>Ageless. Unisex. Affordable. Yours.</h1>
+    </div>
+    
+     <div class="fifty-shades-cd-top-banner">
+        <img src="/Images/Content/50-cd-shades-bottles.jpg">
+    </div>
+    
+    <div class="fifty-shades-cd-video">
+        <iframe width="1000" height="515" src="https://www.youtube.com/embed/t96PiX1uwEU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+    <div id="fifty-shades-top"></div>
+    
+    <div class="fifty-shades-cd-heading">
+        <h3>Step 1. Select your skintone shade</h3>
+    </div>
+ 
+    <!-- Select your shade -->
+    <div class="category-grid">
+    <div class="category-grid-box category-grid-box-1"><a href="#fair" title="Fair"><img alt="Fair" src="/Images/Content/50-cd-shades-fair.png" /> </a>
+
+    <div class="title-overlay">
+    <p id="open-fair"><a href="#fair" title="Fair">Fair</a></p>
+    </div>
+    <a href="#fair" title="Fair"> </a></div>
+
+    <div class="category-grid-box category-grid-box-2"><a href="#light" title="Light"><img alt="Light" src="/Images/Content/50-cd-shades-light.png" /> </a>
+
+    <div class="title-overlay">
+    <p id="open-light"><a href="#light" title="Light">Light</a></p>
+    </div>
+    <a href="#light" title="Light"> </a></div>
+
+    <div class="category-grid-box category-grid-box-3"><a href="#light-medium" title="Medium"><img alt="Medium" src="/Images/Content/50-cd-shades-medium.png" /> </a>
+
+    <div class="title-overlay">
+    <p><a href="#light-medium" title="Medium">Medium</a></p>
+    </div>
+    <a href="#light-medium" title="Medium"> </a></div>
+
+    <div class="category-grid-box category-grid-box-4"><a href="#medium" title="Tan"><img alt="Tan" src="/Images/Content/50-cd-shades-tan.png" /> </a>
+
+    <div class="title-overlay">
+    <p><a href="#medium" title="Tan">Tan</a></p>
+    </div>
+    <a href="#medium" title="Tan"> </a></div>
+
+    <div class="category-grid-box category-grid-box-5"><a href="#medium-dark" title="Dark"><img alt="Dark" src="/Images/Content/50-cd-shades-dark.png" /> </a>
+
+    <div class="title-overlay">
+    <p><a href="#medium-dark" title="Dark">Dark</a></p>
+    </div>
+    <a href="#medium-dark" title="Dark"> </a></div>
+
+    <div class="category-grid-box category-grid-box-6"><a href="#dark" title="Deep Dark"><img alt="Deep Dark" src="/Images/Content/50-cd-shades-deep-dark.png" /> </a>
+
+    <div class="title-overlay">
+    <p><a href="#dark" title="Deep Dark">Deep<br/>Dark</a></p>
+    </div>
+    <a href="#dark" title="Deep Dark"> </a></div>
+
+</div>
+    
+    <!-- Fair Shade Section -->
+    <div class="fair-content fifty-shades-cd-fair" style="display:none;" id="fair">
+        
+        <div class="hp-title-container" id="hp-category-container">
+            <p class="hp-title"><span style="background:#fff;">&nbsp;&nbsp; Fair &nbsp;&nbsp;</span></p>
+
+            <p style="border-bottom:1px solid #666; margin-top:-30px; margin-bottom:20px;">&nbsp;</p>
+        </div>
+        
+        <div class="fifty-shades-cd-undertone-title">
+            <h3>Step 2. Pick your undertone</h3>
+        </div>
+        
+        <div class="fifty-shades-cd-undertones-content" id="open-undertones">What's your undertone? - Click here</div>
+            <div class="undertones-content" style="display:none;">
+                
+                <div class="fifty-shades-cd-undertones-content-colours">
+                    <h5>This is the colour underneath the surface</h5>
+                    <p><strong>WARM:</strong> If the base tone of your skin is yellow or gold, you have warm undertones.</p>
+                    <p><strong>COOL:</strong> If you see hints of blue, pink or red, then you have cool undertones.</p>
+                    <p><strong>NEUTRAL:</strong> If there's a mixture of both warm and cool hues, or your undertone is the same colour as your actual skin colour, then you fall into the neutral category.</p>
+                    
+                    <img src="/Images/Content/50-cd-veins.jpg" alt="Colour underneath the surface"/>
+                </div>
+                
+                <div class="fifty-shades-cd-undertones-content-hint">
+                    <h5>Handy Hint</h5>
+                    <p>If the veins on your wrist are;</p>
+                    <p>Blue or purple - you're cool toned</p>
+                    <p>Blue-green - you're neutral toned</p>
+                    <p>Green or olive - you're warm toned</p>
+                </div>
+                
+                <div class="fifty-shades-cd-undertones-content-jewellery">
+                    <h5>Check your Jewellery</h5>
+                    <p>Do you suit gold or silver?  Cool undertones look better in silver and platinum, and warm-toned look better in gold.  If you suit both, you could be neutral.</p>
+                    
+                    <img src="/Images/Content/50-cd-jewellery.jpg" alt="Check your jewellery" />
+                </div>
+            </div>
+    
+    <div class="fifty-shades-cd-undertones" id="fifty-shades-cd-nav-bar">
+        <div class="fifty-shades-cd-pink-undertone"><a id="open-fair-pink">Pink</a></div>
+        
+        <div class="fifty-shades-cd-yellow-undertone"><a id="open-fair-yellow">Yellow</a></div>
+
+        <div class="fifty-shades-cd-neutral-undertone"><a id="open-fair-neutral">Neutral</a></div>
+        
+        <div class="fifty-shades-cd-cool-undertone"><a id="open-fair-cool">Cool</a></div>
+        
+        <div class="fifty-shades-cd-golden-undertone"><a id="open-fair-golden">Golden</a></div>
+        
+    </div>
+        
+    <div class="fifty-shades-cd-undertones" id="fifty-shades-cd-nav-bar">
+        
+        <div class="fifty-shades-cd-olive-undertone"><a id="open-fair-olive">Olive</a></div>
+        
+        <div class="fifty-shades-cd-peach-undertone"><a id="open-fair-peach">Peach</a></div>
+        
+        <div class="fifty-shades-cd-orange-undertone"><a id="open-fair-orange">Orange</a></div>
+        
+        <div class="fifty-shades-cd-warm-undertone"><a id="open-fair-warm">Warm</a></div>
+        
+        <div class="fifty-shades-cd-red-undertone"><a id="open-fair-red">Red</a></div>
+    </div>
+        
+    <!-- Light Pink -->
+    <div class="fifty-shades-cd-fair-pink" id="fair-pink" style="display:none;">
+        <div class="hp-title-container" id="hp-category-container">
+            <p class="hp-title"><span style="background:#fff;">&nbsp;&nbsp; Fair - Pink &nbsp;&nbsp;</span></p>
+
+            <p style="border-bottom:1px solid #666; margin-top:-30px; margin-bottom:20px;">&nbsp;</p>
+        </div>
+        
+    $$ProductList175$$
+        
+        <div class="fifty-shades-cd-back-to-top"><a href="#fifty-shades-top">Back to top</a></div>
+    </div>
+        
+    <!-- Light Yellow -->
+    <div class="fifty-shades-cd-fair-yellow" id="fair-yellow" style="display:none;">
+        <div class="hp-title-container" id="hp-category-container">
+            <p class="hp-title"><span style="background:#fff;">&nbsp;&nbsp; Fair - Yellow &nbsp;&nbsp;</span></p>
+
+            <p style="border-bottom:1px solid #666; margin-top:-30px; margin-bottom:20px;">&nbsp;</p>
+        </div>
+        
+    $$ProductList180$$
+        
+        <div class="fifty-shades-cd-back-to-top"><a href="#fifty-shades-top">Back to top</a></div>
+    </div>
+        
+    <!-- Light Neutral -->
+    <div class="fifty-shades-cd-fair-neutral" id="fair-neutral" style="display:none;">
+        <div class="hp-title-container" id="hp-category-container">
+            <p class="hp-title"><span style="background:#fff;">&nbsp;&nbsp; Fair - Neutral &nbsp;&nbsp;</span></p>
+
+            <p style="border-bottom:1px solid #666; margin-top:-30px; margin-bottom:20px;">&nbsp;</p>
+        </div>
+        
+    $$ProductList179$$
+        
+        <div class="fifty-shades-cd-back-to-top"><a href="#fifty-shades-top">Back to top</a></div>
+    </div>
+        
+    <!-- Light Cool -->
+    <div class="fifty-shades-cd-fair-cool" id="fair-cool" style="display:none;">
+        <div class="hp-title-container" id="hp-category-container">
+            <p class="hp-title"><span style="background:#fff;">&nbsp;&nbsp; Fair - Cool &nbsp;&nbsp;</span></p>
+
+            <p style="border-bottom:1px solid #666; margin-top:-30px; margin-bottom:20px;">&nbsp;</p>
+        </div>
+        
+    $$ProductList181$$
+        
+        <div class="fifty-shades-cd-back-to-top"><a href="#fifty-shades-top">Back to top</a></div>
+    </div>
+        
+    <!-- Light Golden -->
+    <div class="fifty-shades-cd-light-golden" id="fair-golden" style="display:none;">
+        <div class="hp-title-container" id="hp-category-container">
+            <p class="hp-title"><span style="background:#fff;">&nbsp;&nbsp; Fair - Golden &nbsp;&nbsp;</span></p>
+
+            <p style="border-bottom:1px solid #666; margin-top:-30px; margin-bottom:20px;">&nbsp;</p>
+        </div>
+        
+    $$ProductList110$$
+        <div class="fifty-shades-cd-back-to-top"><a href="#fifty-shades-top">Back to top</a></div>
+    </div>
+        
+    
+    </div>    
+    
+    <!-- Happy People -->
+    <div class="fifty-shades-cd-heading">
+        <h4>You asked we delivered<br/>find out more</h4>
+    </div>
+    
+    <div class="fifty-shades-cd-marketing">
+        <div class="fifty-shades-cd-marketing-box">
+            <img src="/Images/Content/50-cd-formulation.jpg"/>
+            <h5>Formulation</h5>
+            <p>It gives lightweight yet buildable coverage with an oil-free, creamy and comfortable formula that dries down to a long-lasting, demi-matte finish.  It won't settle into fine lines or cling to dry patches either.</p>
+        </div>
+        
+        <div class="fifty-shades-cd-marketing-box">
+            <img src="/Images/Content/50-cd-finish.jpg"/>
+            <h5>Technique</h5>
+            <p>Housed in a luxe glass bottle with a jumbo doe-foot applicator for greater control and less waste, this foundation offers highly pigmented coverage that can be layered or diffused to suit your look.</p>
+        </div>
+        
+        <div class="fifty-shades-cd-marketing-box">
+            <img src="/Images/Content/50-cd-undertones.jpg"/>
+            <h5>10 Undertones</h5>
+            <p>Team Revolution has listened to YOU and worked hard to create 50 shades with 10 undertones across yellow to cool, olive to red, neutral to warm.</p>
+        </div>
+        
+        <div class="fifty-shades-cd-shop-all"><a href="/SearchResults.aspx?Search=conceal+and+define">Shop All</a></div>
+    </div>
+    
+     <div class="fifty-shades-cd-video">
+        <iframe width="1000" height="515" src="https://www.youtube.com/embed/aXL2DwKOlGw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+</div>

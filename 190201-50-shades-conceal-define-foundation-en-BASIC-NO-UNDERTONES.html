@@ -1,0 +1,1975 @@
+<style type="text/css">.lp-title-bar {
+        display: none;
+    }
+    
+    .fifty-shades-cd-shades {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        justify-content: space-between;
+		-webkit-justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        -webkit-flex-flow: row wrap;
+		align-content: space-between;
+	}
+    
+    .fifty-shades-cd-undertones {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        justify-content: space-between;
+		-webkit-justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        -webkit-flex-flow: row wrap;
+		align-content: space-between;
+        width:100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+	.fifty-shades-cd-shade {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+		position: relative;
+        text-align: center;
+        width: 33%;
+		font-size: normal;
+	}
+    
+    .fifty-shades-cd-neutral-undertone, .fifty-shades-cd-yellow-undertone, .fifty-shades-cd-pink-undertone, .fifty-shades-cd-olive-undertone, .fifty-shades-cd-orange-undertone {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+		position: relative;
+        text-align: center;
+        width: 33.3%;
+		font-size: normal;
+	}
+    
+    .light-medium-undertones .fifty-shades-cd-yellow-undertone, .light-medium-undertones .fifty-shades-cd-pink-undertone, .light-medium-undertones .fifty-shades-cd-orange-undertone, .light-medium-undertones .fifty-shades-cd-olive-undertone, .light-medium-undertones .fifty-shades-cd-neutral-undertone {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+		position: relative;
+        text-align: center;
+        width: 25%;
+		font-size: normal;
+	}
+    
+    .medium-undertones .fifty-shades-cd-yellow-undertone, .medium-undertones .fifty-shades-cd-pink-undertone, .medium-undertones .fifty-shades-cd-orange-undertone, .medium-undertones .fifty-shades-cd-olive-undertone, .medium-undertones .fifty-shades-cd-neutral-undertone {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+		position: relative;
+        text-align: center;
+        width: 20%;
+		font-size: normal;
+	}
+    
+    #fifty-shades-cd-nav-bar {
+        margin-bottom: 2%;
+    }
+    
+    .fifty-shades-cd-shade a {
+		background: #1c1c1c;
+		color: #ffffff;
+		width: 100%;
+		height: auto;
+		padding: 20px 5px;
+	}
+	.fifty-shades-cd-shade a:hover {
+		text-decoration: none;
+		background: #A4674B;
+	}
+    
+    .fifty-shades-cd-heading {
+        text-align: center;
+    }
+    
+    .fifty-shades-cd-neutral-undertone a {
+		background-color: #f9e9c5; /* For browsers that do not support gradients */
+        background-image: linear-gradient(to right, #f9e9c5 , #f4d797, #efc569);
+		color: #fff;
+        font-weight:bold;
+		width: 100%;
+		height: auto;
+		padding: 20px 5px;
+        font-size:1.3em;
+        cursor: pointer;
+	}
+    
+    .fifty-shades-cd-yellow-undertone a {
+        background-color: #fff694; /* For browsers that do not support gradients */
+        background-image: linear-gradient(to right, #fff694 , #fff261, #ffee2e);
+		color: #fff;
+        font-weight:bold;
+		width: 100%;
+		height: auto;
+		padding: 20px 5px;
+        font-size:1.3em;
+        cursor: pointer;
+	}
+    
+    .fifty-shades-cd-pink-undertone a {
+        background-color: #ffcbcb; /* For browsers that do not support gradients */
+        background-image: linear-gradient(to right, #ffcbcb , #ffa9a9, #ff7676);
+		color: #fff;
+        font-weight:bold;
+		width: 100%;
+		height: auto;
+		padding: 20px 5px;
+        font-size:1.3em;
+        cursor: pointer;
+	}
+    
+    .fifty-shades-cd-olive-undertone a {
+        background-color: #9abd95; /* For browsers that do not support gradients */
+        background-image: linear-gradient(to right, #9abd95 , #7caa75, #61925a);
+		color: #fff;
+        font-weight:bold;
+		width: 100%;
+		height: auto;
+		padding: 20px 5px;
+        font-size:1.3em;
+        cursor: pointer;
+	}
+    
+    .fifty-shades-cd-orange-undertone a {
+        background-color: #ffc48a; /* For browsers that do not support gradients */
+        background-image: linear-gradient(to right, #ffc48a , #ffaa57, #ff9935);
+		color: #fff;
+        font-weight:bold;
+		width: 100%;
+		height: auto;
+		padding: 20px 5px;
+        font-size:1.3em;
+        cursor: pointer;
+	}
+    
+    .fifty-shades-cd-yellow-undertone a:hover {
+        text-decoration: none;
+		background: #ffee2e;
+    }
+    
+    .fifty-shades-cd-pink-undertone a:hover {
+        text-decoration: none;
+		background: #ff7676;
+    }
+    
+    .fifty-shades-cd-neutral-undertone a:hover {
+        text-decoration: none;
+		background: #efc569;
+    }
+    
+    .fifty-shades-cd-olive-undertone a:hover {
+        text-decoration: none;
+		background: #61925a;
+    }
+    
+    .fifty-shades-cd-orange-undertone a:hover {
+        text-decoration: none;
+		background: #ff9935;
+    }
+    
+    .fifty-shades-cd-video {
+        text-align: center;
+        margin: 3% 0 3% 0;
+    }
+    
+    .fifty-shades-cd-heading h1 {
+        font-size: 2em;
+        margin-top: 4%;
+        margin-bottom: 1%;
+        text-transform: uppercase;
+    }
+    
+    .fifty-shades-cd-heading h3 {
+        font-size:1.5em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color:#000;
+    }
+    
+    .fifty-shades-cd-top-banner img {
+        width: 90%;
+    }
+    
+    .fifty-shades-cd-top-banner {
+        text-align: center;
+        margin:0 auto;
+    }
+    
+    .fifty-shades-cd-marketing {
+        text-align: center;
+    }
+    
+    .fifty-shades-cd-marketing img {
+        width:95%;
+    }
+    
+    .fifty-shades-cd-marketing-box {
+        width:33%;
+        float:left;
+    }
+    
+    .fifty-shades-cd-heading li {
+        list-style-type: none;
+    }
+    
+    .fifty-shades-cd-heading h4 {
+        font-size: 1.7em;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        margin-top: 10%;
+    }
+    
+    .fifty-shades-cd-marketing-box p {
+        font-size: 1.1em;
+        line-height: 26px;
+        padding: 25px;
+        margin-top:0;
+    }
+    
+    .fifty-shades-cd-marketing-box h5 {
+        font-size: 1.5em;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        letter-spacing: 2px;
+        margin-top: 10%;
+    }
+    
+    .fifty-shades-cd-shop-all {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        position: relative;
+        text-align: center;
+        width: 24%;
+        margin: 0 auto;
+        clear:both;
+    }
+    
+    .fifty-shades-cd-shop-all a {
+        background: #1c1c1c;
+        color: #ffffff!important;
+        width: 100%;
+        height: auto;
+        padding: 20px 5px;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-top: 20%;
+    }
+    
+    .fifty-shades-cd-back-to-top {
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        position: relative;
+        text-align: center;
+        width: 14%;
+        margin: 0 auto;
+        clear:both;
+    }
+    
+    .fifty-shades-cd-back-to-top a {
+        background: #1c1c1c;
+        color: #ffffff!important;
+        width: 100%;
+        height: auto;
+        padding: 20px 5px;
+        text-transform: uppercase;
+        font-size: 1em;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-top: 20%;
+    }
+    
+    .fifty-shades-cd-shop-all a:hover, .fifty-shades-cd-back-to-top a:hover {
+        text-decoration: none;
+        background: #A4674B;
+    }
+    
+    .fifty-shades-cd-undertone-title h3 {
+        font-size: 1.7em;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color:#000;
+    }
+    
+    .fifty-shades-cd-undertones-content {
+        text-align: center;
+        margin: 5% auto;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .fifty-shades-cd-undertones-content-colours {
+        text-align: center;
+        width: 65%;
+        margin: 0 auto;
+    }
+    
+    .fifty-shades-cd-undertones-content-hint, .fifty-shades-cd-undertones-content-jewellery {
+        text-align: center;
+        width: 60%;
+        margin: 4% auto;
+    }
+    
+    .fifty-shades-cd-undertones-content-colours h5, .fifty-shades-cd-undertones-content-hint h5, .fifty-shades-cd-undertones-content-jewellery h5 {
+        font-size: 1.2em;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin-bottom:2%;
+    }
+    
+    .fifty-shades-cd-undertones-content-colours img {
+        width: 100%;
+        margin-top: 4%;
+    }
+    
+    .fifty-shades-cd-undertones-content-jewellery img {
+        width: 40%;
+        margin-top: 4%;
+    }
+    
+    .category-grid-box .title-overlay a {
+        color: #fff;
+        font-size: 1.7em;
+        cursor: pointer;
+    }
+    
+    .cd-modal {
+      position: relative;
+      z-index: 10000; /* 1 */
+      top: 0;
+      left: 0;
+      visibility: hidden;
+      width: 100%;
+      height: 100%;
+    }
+
+    .cd-modal.is-visible {
+      visibility: visible;
+    }
+
+    .cd-modal-overlay {
+      position: fixed;
+      z-index: 10;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: hsla(0, 0%, 0%, 0.5);
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s linear 0.3s, opacity 0.3s;
+    }
+
+    .cd-modal.is-visible .cd-modal-overlay {
+      opacity: 1;
+      visibility: visible;
+      transition-delay: 0s;
+    }
+
+    .cd-modal-wrapper {
+      position: absolute;
+      z-index: 9999;
+      top: 0;
+      left: 15%;
+      width: 70%;
+/*      margin-left: -16em;*/
+      background-color: #fff;
+      box-shadow: 0 0 1.5em hsla(0, 0%, 0%, 0.35);
+    }
+
+    .cd-modal-transition {
+      transition: all 0.3s 0.12s;
+      transform: translateY(-10%);
+      opacity: 0;
+    }
+
+    .cd-modal.is-visible .cd-modal-transition {
+      transform: translateY(0);
+      opacity: 1;
+      margin-top: -12%;
+    }
+
+    .cd-modal-header,
+    .cd-modal-content {
+      padding: 1em;
+    }
+
+    .cd-modal-header {
+      position: relative;
+      background-color: #fff;
+    }
+
+    .cd-modal-close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 1em;
+      color: #aaa;
+      background: none;
+      border: 0;
+    }
+
+    .cd-modal-close:hover {
+      color: #777;
+    }
+
+    .cd-modal-heading {
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-align: center;
+      border:none!important;
+    }
+    
+    h2.cd-modal-heading {
+        font-size: 1.8em;
+    }
+
+    .cd-modal-content > *:first-child {
+        margin-top: 0;
+    }
+
+    .cd-modal-content > *:last-child {
+        margin-bottom: 0;
+    }
+    
+    button.cd-modal-toggle {
+        border: none;
+        font-size: 1.5em;
+        background: none;
+        cursor: pointer;
+    }
+    
+    .cd-modal-toggle:hover {
+        color: red;
+    }
+    
+    .targetProducts { display:none; }
+    img.cpl-model-image { width:30%; }
+    img.cpl-model-image-xl { width:45%; }
+    ul.undertones-explained {
+        text-align: center;
+        list-style-position: inside;
+    }
+    .fifty-shades-cd-top-banner-mob { display:none; }
+    
+    @media (max-width: 678px) {
+        .default-title-bar { display:none; }
+        .fifty-shades-cd-shade, .fifty-shades-cd-neutral-undertone, .fifty-shades-cd-yellow-undertone, .fifty-shades-cd-pink-undertone, .fifty-shades-cd-olive-undertone, .fifty-shades-cd-orange-undertone {
+            width: 100%!important;
+			margin-bottom: 4px;
+        }
+        .fifty-shades-cd-video iframe {
+            width: 100%;
+            height: 220px;
+        }
+        .fifty-shades-cd-marketing-box {
+            width:100%;
+        }
+        .fifty-shades-cd-shop-all {
+            width:50%;
+        }
+        .fifty-shades-cd-heading h1, .fifty-shades-cd-marketing-box h5 {
+            font-size: 1.1em;
+            line-height: 35px;
+        }
+        .fifty-shades-cd-heading h3, .fifty-shades-cd-undertone-title h3 {
+            font-size: 1.1em;
+            line-height: 35px;
+            margin-top:0;
+        }
+        .fifty-shades-cd-heading h4 {
+            font-size:1em!important;
+        }
+        .category-grid-box:hover {
+            border-radius: 220px;
+        }
+        .cd-modal.is-visible .cd-modal-transition, .cd-light-modal.is-visible .cd-light-modal-transition {
+            margin-top:-70%;
+        }
+        .category-grid-box .title-overlay a { font-size:1.1em; }
+        img.cpl-model-image, img.cpl-model-image-xl { width:100%; }
+        a.view-product-link { color:#000; }
+        .cpl-model-link-container, .price-label-control { margin-bottom:5%; }
+        .fifty-shades-cd-back-to-top { width:50%; }
+        .title-overlay { z-index:990; }
+        .first-button { 
+            background: #fff;
+            border:1px solid #000!important;
+            font-size:1em;
+        }
+        .cd-modal-wrapper {
+            width:100%;
+            left:0;
+        }
+        .fifty-shades-cd-undertones-content-hint, .fifty-shades-cd-undertones-content-jewellery, .fifty-shades-cd-undertones-content-colours {
+            width:100%;
+        }
+        ul.undertones-explained { padding:0; }
+        .cpl-model-info-background { margin:2%; }
+        .custom-page-content a.first-color.model-link { font-size: 0.9em; }
+        .category-grid {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        .fifty-shades-cd-marketing-box p { font-size:1em; }
+        .fifty-shades-cd-shop-all a { font-size:1.2em; }
+        button.cd-modal-toggle { font-size:1.1em; }
+        .fifty-shades-cd-top-banner { display:none; }
+        .fifty-shades-cd-top-banner-mob { display:block; }
+        .fifty-shades-cd-top-banner-mob img { width:100%; }
+    }
+    
+    @media only screen and (max-width: 1200px) and (min-width: 679px) {
+        .default-title-bar { display:none; }
+        .fifty-shades-cd-video iframe {
+            width: 100%;
+            height: 320px;
+        }
+        .fifty-shades-cd-heading h1{
+            font-size: 1.5em;
+            line-height: 35px;
+        }
+        .fifty-shades-cd-heading h3, .fifty-shades-cd-undertone-title h3 {
+            font-size: 1.2em;
+            line-height: 35px;
+            margin-top:0;
+        }
+        .category-grid {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        a.view-product-link { color:#000; }
+        .cpl-model-link-container, .price-label-control { margin-bottom:5%; }
+        .fifty-shades-cd-back-to-top { width:50%; }
+        .title-overlay { z-index:990; }
+        .first-button { 
+            background: #fff;
+            border:1px solid #000!important;
+        }
+        .fifty-shades-cd-marketing-box h5 { font-size:1.5em; }
+        .cpl-model-info-background { margin:2%; }
+        .fifty-shades-cd-top-banner-mob { display:none; }
+    }
+</style>
+<div class="fifty-shades-cd-container">
+<div class="fifty-shades-cd-top-banner"><a href="#fifty-top-banner"><img src="/Images/Content/50-cd-shades-top-banner-xs-en.jpg" /> </a></div>
+
+<div class="fifty-shades-cd-top-banner-mob"><a href="#fifty-top-banner"><img src="/Images/Content/50-cd-shades-top-banner-mob-en.jpg" /> </a></div>
+
+<div class="fifty-shades-cd-heading">
+<h1>Ageless. Unisex. Affordable. Yours.</h1>
+</div>
+
+<div class="fifty-shades-cd-top-banner"><img src="/Images/Content/50-cd-shades-bottles.jpg" /></div>
+
+<div class="fifty-shades-cd-video"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="515" src="https://www.youtube.com/embed/x69BqLNGDiw" width="1000"></iframe></div>
+
+<div id="fifty-shades-top">&nbsp;</div>
+
+<div class="fifty-shades-cd-heading" id="fifty-top-banner">
+<h3>Step 1. Select your skintone shade</h3>
+</div>
+<!-- Select your shade -->
+
+<div class="category-grid">
+<div class="category-grid-box category-grid-box-1"><a class="showProducts" target="1"> <img alt="Fair" src="/Images/Content/fair-swatch.jpg" /> </a>
+
+<div class="title-overlay"><a class="showProducts" target="1"> <span>Fair</span> </a></div>
+</div>
+
+<div class="category-grid-box category-grid-box-2"><a class="showProducts" target="2"> <img alt="Light" src="/Images/Content/light-swatch.jpg" /> </a>
+
+<div class="title-overlay"><a class="showProducts" target="2"> <span>Light</span> </a></div>
+</div>
+
+<div class="category-grid-box category-grid-box-3"><a class="showProducts" target="3"> <img alt="Light/Medium" src="/Images/Content/light-medium-swatch.jpg" /> </a>
+
+<div class="title-overlay"><a class="showProducts" target="3"> <span>Light/<br />
+Medium</span> </a></div>
+</div>
+
+<div class="category-grid-box category-grid-box-4"><a class="showProducts" target="4"> <img alt="Medium" src="/Images/Content/medium-swatch.jpg" /> </a>
+
+<div class="title-overlay"><a class="showProducts" target="4"> <span>Medium</span> </a></div>
+</div>
+
+<div class="category-grid-box category-grid-box-5"><a class="showProducts" target="5"> <img alt="Medium/Dark" src="/Images/Content/tan-swatch.jpg" /> </a>
+
+<div class="title-overlay"><a class="showProducts" target="5"> <span>Medium/<br />
+Dark</span> </a></div>
+</div>
+
+<div class="category-grid-box category-grid-box-6"><a class="showProducts" target="6"> <img alt="Dark" src="/Images/Content/dark-swatch.jpg" /> </a>
+
+<div class="title-overlay"><a class="showProducts" target="6"> <span>Dark</span> </a></div>
+</div>
+
+<div class="category-grid-box category-grid-box-7"><a class="showProducts" target="7"> <img alt="Deep Dark" src="/Images/Content/deep-dark-swatch.jpg" /> </a>
+
+<div class="title-overlay"><a class="showProducts" target="7"> <span>Deep<br />
+Dark</span> </a></div>
+</div>
+</div>
+<!-- ************************************************
+                  FAIR SELECTION BEGINS 
+************************************************* -->
+
+<div class="targetProducts" id="CDproductContainer1">
+<div class="hp-title-container" id="hp-category-container">
+<p class="hp-title"><span style="background:#fff;">&nbsp;&nbsp; Fair &nbsp;&nbsp;</span></p>
+
+<p style="border-bottom:1px solid #666; margin-top:-30px; margin-bottom:20px;">&nbsp;</p>
+</div>
+<!-- Fair Products START-->
+    <div class="cpl-container">
+	<table style="width:100%;">
+		<tbody><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F07/m-8015.aspx" rel="nofollow"><img src="/Images/Models/Full/8015-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F0.7"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F03/m-8014.aspx" rel="nofollow"><img src="/Images/Models/Full/8014-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F0.3"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F02/m-8013.aspx" rel="nofollow"><img src="/Images/Models/Full/8013-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F0.2"></a>
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F0.7" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F07/m-8015.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F0.7</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct8015" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F07/m-8015.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F0.3" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F03/m-8014.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F0.3</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct8014" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F03/m-8014.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F0.2" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F02/m-8013.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F0.2</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct8013" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F02/m-8013.aspx">View Product</a>
+			</div></td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F01/m-8012.aspx" rel="nofollow"><img src="/Images/Models/Full/8012-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F0.1"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F35/m-8003.aspx" rel="nofollow"><img src="/Images/Models/Full/8003-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F3.5"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F25/m-8002.aspx" rel="nofollow"><img src="/Images/Models/Full/8002-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F2.5"></a>
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F0.1" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F01/m-8012.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F0.1</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct8012" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F01/m-8012.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F3.5" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F35/m-8003.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F3.5</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct8003" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F35/m-8003.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F2.5" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F25/m-8002.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F2.5</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct8002" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F25/m-8002.aspx">View Product</a>
+			</div></td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F1/m-6715.aspx" rel="nofollow"><img src="/Images/Models/Full/6715-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F1"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F05/m-6714.aspx" rel="nofollow"><img src="/Images/Models/Full/6714-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F0.5"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F3/m-6705.aspx" rel="nofollow"><img src="/Images/Models/Full/6705-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F3"></a>
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F1" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F1/m-6715.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F1</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6715" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F1/m-6715.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F0.5" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F05/m-6714.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F0.5</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6714" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F05/m-6714.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F3" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F3/m-6705.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F3</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6705" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F3/m-6705.aspx">View Product</a>
+			</div></td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F2/m-6704.aspx" rel="nofollow"><img src="/Images/Models/Full/6704-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F2"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td width="33%">&nbsp;</td><td class="cpl-cell-spacer"></td><td width="33%">&nbsp;</td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F2" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F2/m-6704.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F2</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6704" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F2/m-6704.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td align="left" valign="top" style="width:33%;">&nbsp;</td><td class="cpl-cell-spacer"></td><td align="left" valign="top" style="width:33%;">&nbsp;</td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr>
+	</tbody></table>
+</div>
+<!-- Fair Products END-->
+</div>
+<!-- FAIR SELECTION ENDS -->
+    
+<!-- ************************************************
+            LIGHT SELECTION BEGINS 
+************************************************* -->
+
+<div class="targetProducts" id="CDproductContainer2">
+<div class="hp-title-container" id="hp-category-container">
+<p class="hp-title"><span style="background:#fff;">&nbsp;&nbsp; Light &nbsp;&nbsp;</span></p>
+
+<p style="border-bottom:1px solid #666; margin-top:-30px; margin-bottom:20px;">&nbsp;</p>
+</div>
+<!-- Light Products START-->
+<div class="cpl-container">
+	<table style="width:100%;">
+		<tbody><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F45/m-8004.aspx" rel="nofollow"><img src="/Images/Models/Full/8004-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F4.5"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F35/m-8003.aspx" rel="nofollow"><img src="/Images/Models/Full/8003-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F3.5"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F5/m-6707.aspx" rel="nofollow"><img src="/Images/Models/Full/6707-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F5"></a>
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F4.5" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F45/m-8004.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F4.5</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct8004" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F45/m-8004.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F3.5" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F35/m-8003.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F3.5</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct8003" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F35/m-8003.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F5" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F5/m-6707.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F5</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6707" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F5/m-6707.aspx">View Product</a>
+			</div></td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F4/m-6706.aspx" rel="nofollow"><img src="/Images/Models/Full/6706-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F4"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td width="33%">&nbsp;</td><td class="cpl-cell-spacer"></td><td width="33%">&nbsp;</td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F4" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F4/m-6706.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F4</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6706" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F4/m-6706.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td align="left" valign="top" style="width:33%;">&nbsp;</td><td class="cpl-cell-spacer"></td><td align="left" valign="top" style="width:33%;">&nbsp;</td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr>
+	</tbody></table>
+</div>
+<!-- Light Products END-->
+</div>
+<!-- LIGHT Selection ENDS -->
+    
+<!-- ************************************************
+            LIGHT/MEDIUM SELECTION BEGINS 
+************************************************* -->
+
+<div class="targetProducts" id="CDproductContainer3">
+<div class="hp-title-container" id="hp-category-container">
+<p class="hp-title"><span style="background:#fff;">&nbsp;&nbsp; Light/Medium &nbsp;&nbsp;</span></p>
+
+<p style="border-bottom:1px solid #666; margin-top:-30px; margin-bottom:20px;">&nbsp;</p>
+</div>
+<!-- Light Medium products STARTS -->
+<div class="cpl-container">
+	<table style="width:100%;">
+		<tbody><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F57/m-8006.aspx" rel="nofollow"><img src="/Images/Models/Full/8006-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F5.7"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F55/m-8005.aspx" rel="nofollow"><img src="/Images/Models/Full/8005-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F5.5"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F65/m-6709.aspx" rel="nofollow"><img src="/Images/Models/Full/6709-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F6.5"></a>
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F5.7" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F57/m-8006.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F5.7</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct8006" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F57/m-8006.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F5.5" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F55/m-8005.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F5.5</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct8005" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F55/m-8005.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F6.5" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F65/m-6709.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F6.5</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6709" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F65/m-6709.aspx">View Product</a>
+			</div></td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F6/m-6708.aspx" rel="nofollow"><img src="/Images/Models/Full/6708-1.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F6"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td width="33%">&nbsp;</td><td class="cpl-cell-spacer"></td><td width="33%">&nbsp;</td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F6" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F6/m-6708.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F6</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6708" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F6/m-6708.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td align="left" valign="top" style="width:33%;">&nbsp;</td><td class="cpl-cell-spacer"></td><td align="left" valign="top" style="width:33%;">&nbsp;</td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr>
+	</tbody></table>
+</div>
+<!-- Light Medium products ENDS -->
+</div>
+<!-- LIGHT/MEDIUM Selection ENDS -->
+    
+<!-- ************************************************
+            MEDIUM SELECTION BEGINS 
+************************************************* -->
+
+<div class="targetProducts" id="CDproductContainer4">
+<div class="hp-title-container" id="hp-category-container">
+<p class="hp-title"><span style="background:#fff;">&nbsp;&nbsp; Medium &nbsp;&nbsp;</span></p>
+
+<p style="border-bottom:1px solid #666; margin-top:-30px; margin-bottom:20px;">&nbsp;</p>
+</div>
+<!-- Medium Products START -->
+<div class="cpl-container">
+	<table style="width:100%;">
+		<tbody><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F95/m-8010.aspx" rel="nofollow"><img src="/Images/Models/Full/8010-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F9.5"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F92/m-8009.aspx" rel="nofollow"><img src="/Images/Models/Full/8009-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F9.2"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F82/m-8008.aspx" rel="nofollow"><img src="/Images/Models/Full/8008-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F8.2"></a>
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F9.5" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F95/m-8010.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F9.5</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct8010" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F95/m-8010.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F9.2" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F92/m-8009.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F9.2</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct8009" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F92/m-8009.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F8.2" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F82/m-8008.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F8.2</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct8008" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F82/m-8008.aspx">View Product</a>
+			</div></td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F75/m-8007.aspx" rel="nofollow"><img src="/Images/Models/Full/8007-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F7.5"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F10/m-6806.aspx" rel="nofollow"><img src="/Images/Models/Full/6806-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F10"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F9/m-6713.aspx" rel="nofollow"><img src="/Images/Models/Full/6713-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F9"></a>
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F7.5" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F75/m-8007.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F7.5</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct8007" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F75/m-8007.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F10" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F10/m-6806.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F10</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6806" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F10/m-6806.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F9" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F9/m-6713.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F9</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6713" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F9/m-6713.aspx">View Product</a>
+			</div></td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F85/m-6712.aspx" rel="nofollow"><img src="/Images/Models/Full/6712-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F8.5"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F8/m-6711.aspx" rel="nofollow"><img src="/Images/Models/Full/6711-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F8"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F7/m-6710.aspx" rel="nofollow"><img src="/Images/Models/Full/6710-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F7"></a>
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F8.5" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F85/m-6712.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F8.5</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6712" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F85/m-6712.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F8" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F8/m-6711.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F8</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6711" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F8/m-6711.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F7" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F7/m-6710.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F7</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6710" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F7/m-6710.aspx">View Product</a>
+			</div></td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F105/m-6807.aspx" rel="nofollow"><img src="/Images/Models/Full/6807-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F10.5"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td width="33%">&nbsp;</td><td class="cpl-cell-spacer"></td><td width="33%">&nbsp;</td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F10.5" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F105/m-6807.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F10.5</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6807" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F105/m-6807.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td align="left" valign="top" style="width:33%;">&nbsp;</td><td class="cpl-cell-spacer"></td><td align="left" valign="top" style="width:33%;">&nbsp;</td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr>
+	</tbody></table>
+</div>
+<!-- Medium Products END -->
+</div>
+<!-- MEDIUM Selection ENDS -->
+    
+<!-- ************************************************
+            MEDIUM/DARK SELECTION BEGINS 
+************************************************* -->
+
+<div class="targetProducts" id="CDproductContainer5">
+<div class="hp-title-container" id="hp-category-container">
+<p class="hp-title"><span style="background:#fff;">&nbsp;&nbsp; Medium/Dark &nbsp;&nbsp;</span></p>
+
+<p style="border-bottom:1px solid #666; margin-top:-30px; margin-bottom:20px;">&nbsp;</p>
+</div>
+<!-- Medium/Dark Products START -->
+<div class="cpl-container">
+	<table style="width:100%;">
+		<tbody><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F112/m-8017.aspx" rel="nofollow"><img src="/Images/Models/Full/8017-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F11.2"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F102/m-8016.aspx" rel="nofollow"><img src="/Images/Models/Full/8016-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F10.2"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F127/m-7993.aspx" rel="nofollow"><img src="/Images/Models/Full/7993-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F12.7"></a>
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F11.2" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F112/m-8017.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F11.2</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct8017" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F112/m-8017.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F10.2" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F102/m-8016.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F10.2</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct8016" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F102/m-8016.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F12.7" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F127/m-7993.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F12.7</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct7993" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F127/m-7993.aspx">View Product</a>
+			</div></td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F122/m-7992.aspx" rel="nofollow"><img src="/Images/Models/Full/7992-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F12.2"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F115/m-7991.aspx" rel="nofollow"><img src="/Images/Models/Full/7991-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F11.5"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F12/m-6809.aspx" rel="nofollow"><img src="/Images/Models/Full/6809-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F12"></a>
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F12.2" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F122/m-7992.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F12.2</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct7992" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F122/m-7992.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F11.5" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F115/m-7991.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F11.5</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct7991" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F115/m-7991.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F12" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F12/m-6809.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F12</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6809" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F12/m-6809.aspx">View Product</a>
+			</div></td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F11/m-6808.aspx" rel="nofollow"><img src="/Images/Models/Full/6808-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F11"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F13/m-6800.aspx" rel="nofollow"><img src="/Images/Models/Full/6800-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F13"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F125/m-6799.aspx" rel="nofollow"><img src="/Images/Models/Full/6799-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F12.5"></a>
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F11" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F11/m-6808.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F11</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6808" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F11/m-6808.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F13" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F13/m-6800.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F13</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6800" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F13/m-6800.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F12.5" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F125/m-6799.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F12.5</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6799" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F125/m-6799.aspx">View Product</a>
+			</div></td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F135/m-6801.aspx" rel="nofollow"><img src="/Images/Models/Full/6801-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F13.5"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td width="33%">&nbsp;</td><td class="cpl-cell-spacer"></td><td width="33%">&nbsp;</td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F13.5" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F135/m-6801.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F13.5</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6801" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F135/m-6801.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td align="left" valign="top" style="width:33%;">&nbsp;</td><td class="cpl-cell-spacer"></td><td align="left" valign="top" style="width:33%;">&nbsp;</td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr>
+	</tbody></table>
+</div>    
+<!-- Medium/Dark Products ENDS -->
+</div>
+<!-- MEDIUM/DARK Selection ENDS -->
+    
+<!-- ************************************************
+            DARK SELECTION BEGINS 
+************************************************* -->
+
+<div class="targetProducts" id="CDproductContainer6">
+<div class="hp-title-container" id="hp-category-container">
+<p class="hp-title"><span style="background:#fff;">&nbsp;&nbsp; Dark &nbsp;&nbsp;</span></p>
+
+<p style="border-bottom:1px solid #666; margin-top:-30px; margin-bottom:20px;">&nbsp;</p>
+</div>
+<!-- Dark Products START -->
+<div class="cpl-container">
+	<table style="width:100%;">
+		<tbody><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F165/m-7999.aspx" rel="nofollow"><img src="/Images/Models/Full/7999-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F16.5"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F147/m-7997.aspx" rel="nofollow"><img src="/Images/Models/Full/7997-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F14.7"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F145/m-7996.aspx" rel="nofollow"><img src="/Images/Models/Full/7996-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F14.5"></a>
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F16.5" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F165/m-7999.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F16.5</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct7999" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F165/m-7999.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F14.7" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F147/m-7997.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F14.7</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct7997" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F147/m-7997.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F14.5" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F145/m-7996.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F14.5</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct7996" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F145/m-7996.aspx">View Product</a>
+			</div></td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F137/m-7995.aspx" rel="nofollow"><img src="/Images/Models/Full/7995-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F13.7"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F132/m-7994.aspx" rel="nofollow"><img src="/Images/Models/Full/7994-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F13.2"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F16/m-6804.aspx" rel="nofollow"><img src="/Images/Models/Full/6804-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F16"></a>
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F13.7" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F137/m-7995.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F13.7</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct7995" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F137/m-7995.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F13.2" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F132/m-7994.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F13.2</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct7994" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F132/m-7994.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F16" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F16/m-6804.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F16</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><div class="cpl-model-review-stars" title="Average Rating 5.00">
+					<table>
+						<tbody><tr>
+							<td><img src="/Interface/Icons/ReviewStarOn.png" alt="Average Rating 5.00" class="review-star-small"></td><td><img src="/Interface/Icons/ReviewStarOn.png" alt="Average Rating 5.00" class="review-star-small"></td><td><img src="/Interface/Icons/ReviewStarOn.png" alt="Average Rating 5.00" class="review-star-small"></td><td><img src="/Interface/Icons/ReviewStarOn.png" alt="Average Rating 5.00" class="review-star-small"></td><td><img src="/Interface/Icons/ReviewStarOn.png" alt="Average Rating 5.00" class="review-star-small"></td>
+						</tr>
+					</tbody></table>
+				</div><a id="HlkViewProduct6804" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F16/m-6804.aspx">View Product</a>
+			</div></td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F15/m-6803.aspx" rel="nofollow"><img src="/Images/Models/Full/6803-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F15"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F14/m-6802.aspx" rel="nofollow"><img src="/Images/Models/Full/6802-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F14"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td width="33%">&nbsp;</td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F15" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F15/m-6803.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F15</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6803" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F15/m-6803.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F14" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F14/m-6802.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F14</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6802" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F14/m-6802.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td align="left" valign="top" style="width:33%;">&nbsp;</td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr>
+	</tbody></table>
+</div>   
+<!-- Dark Products ENDS -->
+</div>
+<!-- DARK Selection ENDS -->
+    
+<!-- ************************************************
+            DEEP DARK SELECTION BEGINS 
+************************************************* -->
+
+<div class="targetProducts" id="CDproductContainer7">
+<div class="hp-title-container" id="hp-category-container">
+<p class="hp-title"><span style="background:#fff;">&nbsp;&nbsp; Deep Dark &nbsp;&nbsp;</span></p>
+
+<p style="border-bottom:1px solid #666; margin-top:-30px; margin-bottom:20px;">&nbsp;</p>
+</div>
+<!-- Deep Dark Products START-->
+<div class="cpl-container">
+	<table style="width:100%;">
+		<tbody><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F177/m-8001.aspx" rel="nofollow"><img src="/Images/Models/Full/8001-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F17.7"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F175/m-8000.aspx" rel="nofollow"><img src="/Images/Models/Full/8000-2.jpg" class="cpl-model-image" alt="Revolution Conceal &amp; Define Foundation F17.5"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F18/m-6805.aspx" rel="nofollow"><img src="/Images/Models/Full/6805-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F18"></a>
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F17.7" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F177/m-8001.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F17.7</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct8001" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F177/m-8001.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F17.5" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F175/m-8000.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F17.5</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct8000" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F175/m-8000.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F18" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F18/m-6805.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F18</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6805" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F18/m-6805.aspx">View Product</a>
+			</div></td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-image-cell" style="width:33%;"><div class="cpl-model-image-container">
+				<a href="/en/Revolution-Conceal-and-Define-Foundation-F17/m-6787.aspx" rel="nofollow"><img src="/Images/Models/Full/6787-2.jpg" class="cpl-model-image" style="transform:rotateY(180deg);" alt="Revolution Conceal &amp; Define Foundation F17"></a>
+			</div></td><td class="cpl-cell-spacer"></td><td width="33%">&nbsp;</td><td class="cpl-cell-spacer"></td><td width="33%">&nbsp;</td>
+		</tr><tr>
+			<td class="cpl-cell-spacer"></td><td class="cpl-info-cell" style="vertical-align:top;width:33%;"><div class="cpl-model-info-background">
+				<div class="cpl-model-link-container">
+					<a title="Revolution Conceal &amp; Define Foundation F17" class="first-color model-link" href="/en/Revolution-Conceal-and-Define-Foundation-F17/m-6787.aspx"><span class="cpl-brand-name-in-link">Revolution </span>Conceal &amp; Define Foundation F17</a>
+				</div><div>
+					<div class="price-label-control">
+						<table class="price-label-control-table">
+							<tbody><tr>
+								<td class="price-label-control-table-price-cell"><div class="price-label-control-content">
+									<div class="price-label-control-content-row">
+										<div class="price-label-control-prices">
+											<span class="price-label">£9.00</span>
+										</div>
+									</div>
+								</div></td>
+							</tr>
+						</tbody></table>
+					</div>
+				</div><a id="HlkViewProduct6787" title="Click to view product details" class="first-button view-product-link" href="/en/Revolution-Conceal-and-Define-Foundation-F17/m-6787.aspx">View Product</a>
+			</div></td><td class="cpl-cell-spacer"></td><td align="left" valign="top" style="width:33%;">&nbsp;</td><td class="cpl-cell-spacer"></td><td align="left" valign="top" style="width:33%;">&nbsp;</td>
+		</tr><tr>
+			<td colspan="6"><div class="cpl-row-spacer">
+
+			</div></td>
+		</tr>
+	</tbody></table>
+</div>
+<!-- Deep Dark Products END-->
+</div>
+<!-- Happy People -->
+
+<div class="fifty-shades-cd-heading">
+<h4>You asked we delivered<br />
+find out more</h4>
+</div>
+
+<div class="fifty-shades-cd-marketing">
+<div class="fifty-shades-cd-marketing-box"><img src="/Images/Content/50-cd-formulation.jpg" />
+<h5>Formulation</h5>
+
+<p>It gives lightweight yet buildable coverage with an oil-free, creamy and comfortable formula that dries down to a long-lasting, demi-matte finish. It won't settle into fine lines or cling to dry patches either.</p>
+</div>
+
+<div class="fifty-shades-cd-marketing-box"><img src="/Images/Content/50-cd-finish.jpg" />
+<h5>Technique</h5>
+
+<p>Housed in a luxe glass bottle with a jumbo doe-foot applicator for greater control and less waste, this foundation offers highly pigmented coverage that can be layered or diffused to suit your look.</p>
+</div>
+
+<div class="fifty-shades-cd-marketing-box"><img src="/Images/Content/50-cd-undertones.jpg" />
+<h5>10 Undertones</h5>
+
+<p>Team Revolution has listened to YOU and worked hard to create 50 shades with 10 undertones across yellow to cool, olive to red, neutral to warm.</p>
+</div>
+
+<div class="fifty-shades-cd-shop-all"><a href="/SearchResults.aspx?Search=conceal+and+define">Shop All</a></div>
+</div>
+
+<div class="fifty-shades-cd-video"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="515" src="https://www.youtube.com/embed/5aqHss3L4jg" width="1000"></iframe></div>
+    
+<div id="olapic_specific_widget"></div><script type="text/javascript" src="https://photorankstatics-a.akamaihd.net/743d2e78a76dedeb07e0745158547931/static/frontend/latest/build.min.js"  data-olapic="olapic_specific_widget" data-instance="982c5673642c5de36091d3e7741f8d78" data-apikey="e313a6f728d17e758a4eb196e92e400b0f1d6b947398b3426cd51f2d487dd451" async="async"></script>
+</div>
